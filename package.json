@@ -1,0 +1,17 @@
+{
+  "name": "simple-virtual-dom",
+  "version": "0.1.0",
+  "description": "A simple Virtual DOM",
+  "main": "dist/virtual-dom.js",
+  "scripts": {
+    "build": "webpack --config webpack.conf.js",
+    "start": "http-server -p 9001"
+  },
+  "author": "y8n<yjy972080142@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "http-server": "^0.10.0",
+    "webpack": "^2.4.1"
+  }
+}
